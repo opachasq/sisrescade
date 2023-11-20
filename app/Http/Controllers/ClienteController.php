@@ -130,7 +130,7 @@ class ClienteController extends Controller
 
         if (is_null($cliente)) {
 
-            $url = "https://unasam.dev/integracion/api/dbu/matriculados/2014-2/dni/".$dni;
+            $url = "".$dni;
 
             try {
                 //code...

@@ -155,7 +155,7 @@
                         <div class="card-footer ml-auto mr-auto">
                             <div class="buttons-form-submit d-flex justify-content-center">
 
-                                <a href="{{route('clientes.index')}}"" class="btn btn-success mr-1"> Volver</a>
+                                <a href="{{route('clientes.index')}}" class="btn btn-success mr-1"> Volver</a>
                                 <a href="{{route('clientes.create')}}" class="btn btn-warning mr-1"> Cancelar</a>
                                 <button type="submit" href="#" class="btn btn-primary">
                                     Guardar

@@ -14,7 +14,14 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             UserSeeder::class,
-            GeneroSeeder::class           
+            GeneroSeeder::class,
+            Metodo_PagoSeeder::class,
+            Estado_PagoSeeder::class,
+            Estado_CampoSeeder::class,
+            Tipo_DeporteSeeder::class,
+            HoraSeeder::class,
+            Estado_reservaSeeder::class
+
         ]);
     }
 }
